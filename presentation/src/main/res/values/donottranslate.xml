@@ -26,8 +26,8 @@
     <string name="about_developer">Daniel Do</string>
     <string name="about_source">https://github.com/1-vn/onesms</string>
     <string name="about_changelog">https://github.com/1-vn/onesms/releases</string>
-    <string name="about_contact">team@qklabs.com</string>
+    <string name="about_contact">diep@1-vn.com</string>
     <string name="about_license">GNU General Public License v3.0</string>
-    <string name="about_copyright">© 2014–2018</string>
+    <string name="about_copyright">© 2018–2019</string>
 
 </resources>
