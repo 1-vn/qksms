@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2017 Moez Bhatti <moez.bhatti@gmail.com>
+  ~ Copyright (C) 2019 DiepDT Bhatti <diep@1-vn.com>
   ~
-  ~ This file is part of QKSMS.
+  ~ This file is part of ONESMS.
   ~
-  ~ QKSMS is free software: you can redistribute it and/or modify
+  ~ ONESMS is free software: you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
   ~ the Free Software Foundation, either version 3 of the License, or
   ~ (at your option) any later version.
   ~
-  ~ QKSMS is distributed in the hope that it will be useful,
+  ~ ONESMS is distributed in the hope that it will be useful,
   ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   ~
   ~ You should have received a copy of the GNU General Public License
-  ~ along with QKSMS.  If not, see <http://www.gnu.org/licenses/>.
+  ~ along with ONESMS.  If not, see <http://www.gnu.org/licenses/>.
   -->
-<manifest package="com.moez.QKSMS"
+<manifest package="com.onevn.ONESMS"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -136,10 +136,10 @@
         </receiver>
         <receiver
             android:name=".receiver.MmsSentReceiver"
-            android:taskAffinity="com.moez.QKSMS.MMS_SENT" />
+            android:taskAffinity="com.onevn.ONESMS.MMS_SENT" />
         <receiver
             android:name=".receiver.MmsUpdatedReceiver"
-            android:taskAffinity="com.moez.QKSMS.MMS_UPDATED" />
+            android:taskAffinity="com.onevn.ONESMS.MMS_UPDATED" />
         <receiver
             android:name=".receiver.MmsReceivedReceiver"
             android:taskAffinity="com.klinker.android.messaging.MMS_RECEIVED" />
@@ -156,7 +156,7 @@
         <receiver android:name=".feature.widget.WidgetProvider">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="com.moez.QKSMS.intent.action.ACTION_NOTIFY_DATASET_CHANGED" />
+                <action android:name="com.onevn.ONESMS.intent.action.ACTION_NOTIFY_DATASET_CHANGED" />
             </intent-filter>
 
             <meta-data
