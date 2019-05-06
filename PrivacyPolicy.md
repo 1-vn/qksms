@@ -54,7 +54,7 @@ Blade-Player is developed in good faith and for general use. The developer will 
 
 ## About Us
 
-Blade-Player is solo developed project by Valentin HAUDIQUET who is a C/Assembly/Java programmer.  The development of Blade-Player app is a solo effort by the developer and the functions of the software are intended as is. However the project has received several contributions from the opensource community which has helped the project become better.
+OneSMS-Player is solo developed project by Daniel Do who is a C/Assembly/Java programmer.  The development of Blade-Player app is a solo effort by the developer and the functions of the software are intended as is. However the project has received several contributions from the opensource community which has helped the project become better.
 
 ## Contact Us
 
